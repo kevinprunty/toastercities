@@ -1,0 +1,12 @@
+[
+    {
+        "name":"Battle Against a Machine", 
+        "game":"Earthbound",
+        "filename":"baam.mp3"
+    },
+    {
+        "name":"Battle Against a Weird Opponent", 
+        "game":"Earthbound",
+        "filename":"bawo.mp3"
+    }
+]
