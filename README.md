@@ -1,8 +1,10 @@
-# React + Vite
+# Toastercities
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Current project as of 9/29/2023
+Making a heavily stylized personal website.
 
-Currently, two official plugins are available:
+[Toastercities on Neocities](https://toasterbrains.neocities.org/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Pushing to Neocities
+I use the [Neocities CLI](https://neocities.org/cli) to push to Neocities! Very convenient. 
+
