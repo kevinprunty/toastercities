@@ -8,3 +8,5 @@ Making a heavily stylized personal website.
 ## Pushing to Neocities
 I use the [Neocities CLI](https://neocities.org/cli) to push to Neocities! Very convenient. 
 
+## Utilities
+- **push.js**: A utility I made to help me push the project with one script. Part of the gitignore. 
