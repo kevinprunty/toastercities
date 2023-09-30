@@ -1,20 +1,25 @@
+import { Link } from 'react-router-dom';
 // Asset imports 
+import './Construction.css';
 import constructionLogo from '../assets/toasterconstruction.png';
 
 
 function Construction(){
 
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={ constructionLogo } className="const-logo" alt="logo" />
-        <h1>
-          under toaster construction
-        </h1>
-        <div className="enterButton">
-          Enter the Construction Zone
+    <div className="Construction flex-column">
+
+      <img src={ constructionLogo } className="const-logo" alt="logo" />
+      <h1>
+        under toaster construction
+      </h1>
+      <Link className="button-link" to="/fight">
+        <div className="enter-button prevent-select">
+          Enter the Construction Area
         </div>
-      </header>
+      </Link>
+      
+      
     </div>  
   )
 

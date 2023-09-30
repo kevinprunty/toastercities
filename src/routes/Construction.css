@@ -1,0 +1,56 @@
+.Construction{
+  margin: 2px auto 2px auto;
+  padding: 2px;
+  width: 900px;
+  text-align: center;
+}
+  
+.const-logo{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .const-logo {
+      animation: vibrate infinite 5s;
+    }
+  }
+  
+
+
+.enter-button{
+    font-size: 2rem;
+    padding: 10px;
+    margin: 10px;
+    border: solid white 2px;
+    border-radius: 5px;
+    text-align: center;
+    background-color:rgba(0,0,0,0.3);
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+a.button-link{
+  color: white;
+  text-decoration: none;
+}
+
+.enter-button:hover{
+  background-color: rgba(0,0,0,0.1);
+}
+
+.enter-button:active{
+  background-color: rgba(0,0,0,0.55);
+}
+
+@keyframes vibrate { 
+    0% { transform: translateX(-3px) }
+    3% { transform: translateX(3px) }
+    6% { transform: translateX(-3px) }
+    9% { transform: translateX(3px) }
+    12% { transform: translateX(-3px) }
+    15% { transform: translateX(0) }
+    100% { transform: translateX(0) }
+}
+  

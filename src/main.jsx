@@ -1,6 +1,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-// import App from './App.jsx'
+
+
 import { 
   createBrowserRouter, 
   RouterProvider
@@ -11,6 +12,7 @@ import './index.css'
 import Root from './routes/root';
 import Construction from './routes/Construction';
 import ErrorPage from './Error-Page';
+import BattleScreen from './routes/BattleScreen';
 
 const router = createBrowserRouter([
   {
@@ -21,6 +23,10 @@ const router = createBrowserRouter([
       {
         path: "", 
         element: <Construction />
+      }, 
+      {
+        path: "/fight", 
+        element: <BattleScreen />
       }
     ]
   },
