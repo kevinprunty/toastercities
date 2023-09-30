@@ -13,6 +13,7 @@ function Construction(){
       <h1>
         under toaster construction
       </h1>
+      <h2>Best viewed on not mobile for now :)</h2>
       <Link className="button-link" to="/fight">
         <div className="enter-button prevent-select">
           Enter the Construction Area

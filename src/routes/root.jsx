@@ -1,4 +1,4 @@
-import { Outlet,  } from "react-router-dom";
+import { Outlet,  Link} from "react-router-dom";
 import { useEffect } from "react";
 
 import '../App.css';
@@ -29,9 +29,11 @@ export default function Root() {
     return (
       <>
         <header className="main-header">
-            <h1>ToasterBrains</h1>
+            <Link to="/"><h1>ToasterBrains</h1></Link>
         </header>
-        <Outlet /> 
+        <section className="main-content">
+            <Outlet /> 
+        </section>
       </>
     );
   }
